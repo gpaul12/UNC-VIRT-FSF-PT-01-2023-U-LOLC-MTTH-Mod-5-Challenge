@@ -36,6 +36,6 @@ var time8 = beforeTime.add(1, "h");
 time8 = time8.format('hh:mm A');
 $(".block8").text(time8);
 
-var time1 = beforeTime.add(0, "h");
-time1 = time1.format('hh:mm A');
-$(".block1").text(time1);
+var time9 = beforeTime.add(1, "h");
+time9 = time9.format('hh:mm A');
+$(".block9").text(time9);
