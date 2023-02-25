@@ -12,9 +12,9 @@ var time2 = beforeTime.add(1, "h");
 time2 = time2.format('hh:mm A');
 $(".block2").text(time2);
 
-var time1 = beforeTime.add(0, "h");
-time1 = time1.format('hh:mm A');
-$(".block1").text(time1);
+var time3 = beforeTime.add(1, "h");
+time3 = time3.format('hh:mm A');
+$(".block3").text(time3);
 
 var time1 = beforeTime.add(0, "h");
 time1 = time1.format('hh:mm A');
