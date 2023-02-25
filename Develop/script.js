@@ -83,7 +83,16 @@ function testTime() {
   else if (currentTime.isSame(time4)) {
       $(".form12").addClass("present");
   };
-
+  time5 = moment().startOf('day').add(13, "hours");
+  if (currentTime.isAfter(time5)) {
+      $(".form1").addClass("past");
+  }
+  else if (currentTime.isBefore(time5)) {
+      $(".form1").addClass("future");
+  }
+  else if (currentTime.isSame(time5)) {
+      $(".form1").addClass("present");
+  };
 
 
 
