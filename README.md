@@ -13,3 +13,13 @@ The following animation demonstrates the application functionality:
 - The task manager aspect saves entries to local storage
 - This project emphasizes the use of using Javascript to save and retrieve data from local storage
 - This project utilizes the use of moment.js for time calculation and formatting conversion
+
+### This project has the following features:
+
+- A header with local time that updates live
+- Seven Input Entries
+- A Save button that saves items to local storage
+  - Attribute changes for hour by hour time tracking
+  - Gray is past the current hour
+  - Red is on the current hour
+  - Green is before the current hour
