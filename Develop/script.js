@@ -20,9 +20,9 @@ var time4 = beforeTime.add(1, "h");
 time4 = time4.format('hh:mm A');
 $(".block4").text(time4);
 
-var time1 = beforeTime.add(0, "h");
-time1 = time1.format('hh:mm A');
-$(".block1").text(time1);
+var time5 = beforeTime.add(1, "h");
+time5 = time5.format('hh:mm A');
+$(".block5").text(time5);
 
 var time1 = beforeTime.add(0, "h");
 time1 = time1.format('hh:mm A');
