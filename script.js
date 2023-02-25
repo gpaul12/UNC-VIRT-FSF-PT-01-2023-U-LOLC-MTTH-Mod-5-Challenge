@@ -1,3 +1,5 @@
+moment.updateLocale('en', null);
+
 moment(Date);
 $("#currentDay").text(moment().format('dddd MMMM DD YYYY, h:mm a'));
 var currentTime = moment();
