@@ -42,5 +42,11 @@ $(".block9").text(time9);
 
 function testTime() {
   time1 = moment().startOf('day').add(9, "hours");
+  currentTime = currentTime.startOf("hour");
+
   
+
+
+
+
 }
