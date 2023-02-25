@@ -23,3 +23,19 @@ The following animation demonstrates the application functionality:
   - Gray is past the current hour
   - Red is on the current hour
   - Green is before the current hour
+
+### Features:
+
+- One HTML Pages
+  - Index.html
+    - Contains 8 inputs for an 8-hour work day
+- One CSS Page
+  - Styles.css
+    - Contains styling for changing attributes and buttons
+- One Javascript Page
+  _ Contains:
+  _ Variables, including arrays and time conversion
+  _ Event listeners
+  _ if/else if statements
+  _ For Loops
+  _ Functions \* Local Storage set and get
