@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 - ['Day-Planner GitHub'](https://github.com/gpaul12/UNC-VIRT-FSF-PT-01-2023-U-LOLC-MTTH-Mod-5-Challenge)
-- ['Day-Planner GitHub IO'](https://jamierachael.github.io/Day-Planner/)
+- ['Day-Planner GitHub IO']()
 
 The following animation demonstrates the application functionality:
 
