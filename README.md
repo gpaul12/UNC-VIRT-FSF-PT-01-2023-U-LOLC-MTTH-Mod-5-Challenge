@@ -40,6 +40,11 @@ The following animation demonstrates the application functionality:
   _ Functions
   _ Local Storage set and get
 
+### Issues
+
+- Console reading depreciation warning
+- Reviewed solution from: https://momentjs.com/guides/#/warnings/js-date/
+
 ### Author
 
 - Gerry Paul
