@@ -103,6 +103,15 @@ function testTime() {
   else if (currentTime.isSame(time6)) {
       $(".form2").addClass("present");
   };
-
+  time7 = moment().startOf('day').add(15, "hours");
+  if (currentTime.isAfter(time7)) {
+      $(".form3").addClass("past");
+  }
+  else if (currentTime.isBefore(time7)) {
+      $(".form3").addClass("future");
+  }
+  else if (currentTime.isSame(time7)) {
+      $(".form3").addClass("present");
+  };
 
 }
