@@ -142,3 +142,9 @@ for (var i = 0; i < x.length; i++) {
   var dataHour = localStorage.getItem(x[i]);
   $(".form" + x[i]).val(dataHour);
 }
+$(".saveBtn").click(function () {
+  event.preventDefault();
+  var formValue = $(this).siblings(".form-control").val();
+  var listItem = $(this).parent().data("hour");
+  localStorage.setItem(listItem, formValue);
+});
