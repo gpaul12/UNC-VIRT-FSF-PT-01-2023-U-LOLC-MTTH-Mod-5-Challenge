@@ -44,7 +44,14 @@ function testTime() {
   time1 = moment().startOf('day').add(9, "hours");
   currentTime = currentTime.startOf("hour");
 
-  
+  if (currentTime.isAfter(time1)) {
+    $(".form9").addClass("past");
+  }
+  else if (currentTime.isBefore(time1)) {
+    $(".form9").addClass("future");
+  }
+  else if (currentTime.isSame(time1)) {
+    $(".form9").addClass("present");
 
 
 
